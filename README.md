@@ -1,6 +1,10 @@
 # Figures-for-ICML2026
 Figures:
 
+1.zo_compare_test_acc.png and zo_compare_test_loss.png compare ZO-SGD and ZO-SGDM for their convergence rates in practice.
+
+2.zo_smooth_compare.png indicates the result nonsmooth and smooth in practice hold a close convergence rates
+
 References:
 
 [R1] Ji, Fanfan, and Xiaotong Yuan. "Derandomized Online-to-Non-convex Conversion for Stochastic Weakly Convex Optimization." In The Fourteenth International Conference on Learning Representations.
