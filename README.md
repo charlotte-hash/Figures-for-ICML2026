@@ -1,6 +1,8 @@
 # Figures-for-ICML2026
 Figures:
+
 References:
+
 [R1] Ji, Fanfan, and Xiaotong Yuan. "Derandomized Online-to-Non-convex Conversion for Stochastic Weakly Convex Optimization." In The Fourteenth International Conference on Learning Representations.
 
 [R2] Kornowski, Guy, and Ohad Shamir. "An algorithm with optimal dimension-dependence for zero-order nonsmooth nonconvex stochastic optimization." Journal of Machine Learning Research 25, no. 122 (2024): 1-14.
