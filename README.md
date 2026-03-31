@@ -1,9 +1,11 @@
 # Figures-for-ICML2026
 Figures:
 
-1.zo_compare_test_acc.png and zo_compare_test_loss.png compare ZO-SGD and ZO-SGDM for their convergence rates in practice.
+1. `zo_compare_test_acc.png` and `zo_compare_test_loss.png` compare the empirical convergence rates of ZO-SGD and ZO-SGDM.
 
-2.zo_smooth_compare.png indicates the result nonsmooth and smooth in practice hold a close convergence rates
+2. `zo_smooth_compare.png` indicates that the smooth and nonsmooth settings achieve similar convergence rates in practice.
+
+3. `Reset_acc.png` and `Reset_loss.png` suggest that resetting mainly plays the role of an analysis tool; even without resetting, the method still performs comparably to ZO-SGD and ZO-SGDM.
 
 References:
 
