@@ -1,11 +1,13 @@
 # Figures-for-ICML2026
 Figures:
 
-1. `zo_compare_test_acc.png` and `zo_compare_test_loss.png` compare the empirical convergence rates of ZO-SGD and ZO-SGDM.
+1. `zo_compare_test_acc.png` and `zo_compare_test_loss.png` compare the empirical convergence behavior of ZO-SGD and ZO-SGDM.
 
-2. `zo_smooth_compare.png` indicates that the smooth and nonsmooth settings achieve similar convergence rates in practice.
+2. `zo_smooth_compare.png` shows that the smooth and nonsmooth settings exhibit similar convergence rates in practice.
 
-3. `Reset_acc.png` and `Reset_loss.png` suggest that resetting mainly plays the role of an analysis tool; even without resetting, the method still performs comparably to ZO-SGD and ZO-SGDM.
+3. `Reset_acc.png` and `Reset_loss.png` suggest that resetting mainly serves as an analysis tool: even without resetting, the method still performs comparably to ZO-SGD and ZO-SGDM. We also observe a clear early-stage acceleration effect from momentum, which is consistent with the first-order setting shown in `FO.png` and with the typical ZO-SGDM (SHB) behavior shown in `Momentum.png`.
+
+4. `FO.png` presents additional experiments in the first-order setting, comparing the cases with and without resetting.
 
 References:
 
